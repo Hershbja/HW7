@@ -17,6 +17,8 @@ class TestCase(unittest.TestCase):
 
     def test_leapyear(self):
         result = q.leapyear(16)
+        self.assertEqual(result, True)
+        result = q.leapyear(100)
         self.assertEqual(result, False)
 
 
