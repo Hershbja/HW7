@@ -21,3 +21,5 @@ def FizzBuzz(test):
             else:
                 print(x)
             
+def leapyear(year):
+    pass
