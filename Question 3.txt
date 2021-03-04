@@ -1,0 +1,11 @@
+I guess i would use instagram, my social media activity was broad and generalized.
+I would do photo upload.
+
+Test 1 would be deploying an alert if the program has no access to photos
+Code 1 would be to check if the program has access to photos
+
+Test 2 would be to show photos that are valid format
+Code 2 would be checking each photo for valid format then displaying them if they do
+
+Test 3 would be to upload photo with text from user
+Code 3 would to collect photo and then collect user input, then sends it to the internet for other users to look at it.
