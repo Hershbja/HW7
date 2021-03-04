@@ -1,16 +1,16 @@
 def FizzBuzz(test):
     for x in range (1, 101, 1):
-        if (x % 5 == 0) && (x % 3 == 0) :
+        if (x % 5 == 0) and (x % 3 == 0) :
             if test == x:
                 return "FizzBuzz"
             else:
                 print("FizzBuzz")
-        elif(x % 5 == 0):
+        elif(x % 3 == 0):
             if test == x:
                 return "Fizz"
             else:
                 print("Fizz")
-        elif(x% 3 == 0):
+        elif(x% 5 == 0):
             if test == x:
                 return "Buzz"
             else:
