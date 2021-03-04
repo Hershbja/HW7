@@ -16,7 +16,7 @@ class TestCase(unittest.TestCase):
         # self.assertEqual(result, 17)
 
     def test_leapyear(self):
-        result = q.leapyear(17)
+        result = q.leapyear(16)
         self.assertEqual(result, False)
 
 

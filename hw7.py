@@ -22,4 +22,5 @@ def FizzBuzz(test):
                 print(x)
             
 def leapyear(year):
-    pass
+    if year % 4 == 0:
+        return True
