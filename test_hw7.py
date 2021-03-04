@@ -20,6 +20,8 @@ class TestCase(unittest.TestCase):
         self.assertEqual(result, True)
         result = q.leapyear(100)
         self.assertEqual(result, False)
+        result = q.leapyear(400)
+        self.assertEqual(result, True)
 
 
 
